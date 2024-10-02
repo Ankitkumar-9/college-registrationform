@@ -1,0 +1,16 @@
+   .submit{
+        background-color: rgb(6, 110, 229);
+        color: azure;
+        box-sizing:content-box;
+        height: 20px;
+        width: 50px;
+        font-weight: lighter;
+      }
+      .link{
+        text-decoration: none;
+        
+      }
+      h2
+      {
+        text-decoration: underline;
+      }
