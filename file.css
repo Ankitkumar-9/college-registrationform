@@ -1,7 +1,6 @@
   *{
     margin:0;
   }
-  
   .submit{
         background-color: rgb(6, 110, 229);
         color: azure;
@@ -28,7 +27,6 @@
         text-align: center;
         padding-top: 5px;
         padding-bottom: 5px;
-
       
       }
       .bar{
@@ -41,11 +39,16 @@
         border:1px solid black;
         width: 100%;
       }
-       
+       span{
+        height: fit-content;
+       }
       .content{
         display: flex;
-        flex-direction:column;
-        position: relative;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
       }
     
       .navbar{
@@ -60,6 +63,4 @@
         background-position: center;
         height:80px;
         width: 100%;
-        
        }
-    
